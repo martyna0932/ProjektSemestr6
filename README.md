@@ -5,7 +5,8 @@ Wymagania Funkcjonalne
 1.1. Dodanie nowego pacjenta 
 Opis: Rejestracja pacjenta w systemie przez pracownika (np. rejestratorkę)
 Szczegóły:
-  -System powinien umożliwiać wprowadzenie danych osobowych: imię, nazwisko, PESEL (klucz unikalny), data urodzenia, adres zamieszkania oraz numer telefonu. -System musi sprawdzać, czy pacjent o danym numerze       PESEL już istnieje w bazie danych, aby uniknąć powtórzeń.
+  -System powinien umożliwiać wprowadzenie danych osobowych: imię, nazwisko, PESEL (klucz unikalny), data urodzenia, adres zamieszkania oraz numer telefonu. 
+  -System musi sprawdzać, czy pacjent o danym numerze PESEL już istnieje w bazie danych, aby uniknąć powtórzeń.
 
 2.2. Historia wizyt pacjenta 
 Opis:
@@ -43,4 +44,4 @@ Wymagania Niefunkcjonalne
 Interfejs użytkownika (UI) musi automatycznie dostosowywać się do rozdzielczości ekranu.
 
 2.4. Walidacja danych wejściowych Natychmiastowa informacja dla użytkownika (np. podświetlenie czerwonym kolorem zbyt krótkiego hasła lub błędnego formatu e-mail). 
-Walidacja po stronie serwera: – blokowanie prób wstrzyknięcia kodu (SQL Injection, XSS) oraz sprawdzanie poprawności logicznej danych (np. czy PESEL ma 11 cyfr) przed zapisem w bazie.
+Walidacja po stronie serwera:  blokowanie prób wstrzyknięcia kodu (SQL Injection, XSS) oraz sprawdzanie poprawności logicznej danych (np. czy PESEL ma 11 cyfr) przed zapisem w bazie.
