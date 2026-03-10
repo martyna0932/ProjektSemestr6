@@ -3,6 +3,7 @@ Portal pacjenta
 Wymagania Funkcjonalne
 
 1.1. Dodanie nowego pacjenta 
+
 Opis: Rejestracja pacjenta w systemie przez pracownika (np. rejestratorkę)
 
 Szczegóły:
@@ -10,22 +11,28 @@ Szczegóły:
   -System musi sprawdzać, czy pacjent o danym numerze PESEL już istnieje w bazie danych, aby uniknąć powtórzeń.
 
 2.2. Historia wizyt pacjenta 
+
 Opis:
 Przeglądanie chronologicznego zestawienia wszystkich odbytych i zaplanowanych wizyt. 
+
 Szczegóły: 
   -Każdy rekord w historii powinien zawierać: datę i godzinę wizyty, imię i nazwisko lekarza, cel wizyty, rozpoznanie (opcjonalnie) oraz zalecenia po wizycie.
   -Możliwość filtrowania historii według zakresu dat lub nazwiska lekarza.
 
 1.3. Spis lekarzy
+
 Opis:
 Spis lekarzy oraz ich godziny i miejsca przyjmowania 
+
 Szczegóły:
   -Lista zawierająca dane lekarzy: imię, nazwisko, specjalizacja oraz numer gabinetu. 
   -Funkcja wyszukiwania lekarza po specjalizacji lub nazwisku.
 
 1.4. Godziny przyjmowania przez lekarzy
+
 Opis:
 Informacje o grafiku przyjmowania przez danych lekarzy 
+
 Szczegóły: 
   -System wyświetla harmonogram tygodniowy każdego lekarza oraz dostępne terminy wizyt 
   -Integracja z systemem rezerwacji – godziny muszą być powiązane z dostępnymi terminami wizyt, aby uniknąć nakładania się terminów.
