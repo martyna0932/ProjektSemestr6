@@ -1,6 +1,7 @@
 Portal pacjenta
 
 Wymagania Funkcjonalne
+
 1.1. Dodanie nowego pacjenta Opis: Rejestracja pacjenta w systemie przez pracownika (np. rejestratorkę)
 Szczegóły:
 -System powinien umożliwiać wprowadzenie danych osobowych: imię, nazwisko, PESEL (klucz unikalny), data urodzenia, adres zamieszkania oraz numer telefonu. -System musi sprawdzać, czy pacjent o danym numerze PESEL już istnieje w bazie danych, aby uniknąć powtórzeń.
