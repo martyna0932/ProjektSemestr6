@@ -10,7 +10,7 @@ Szczegóły:
   -System powinien umożliwiać wprowadzenie danych osobowych: imię, nazwisko, PESEL (klucz unikalny), data urodzenia, adres zamieszkania oraz numer telefonu. 
   -System musi sprawdzać, czy pacjent o danym numerze PESEL już istnieje w bazie danych, aby uniknąć powtórzeń.
 
-2.2. Historia wizyt pacjenta 
+1.2. Historia wizyt pacjenta 
 
 Opis:
 Przeglądanie chronologicznego zestawienia wszystkich odbytych i zaplanowanych wizyt. 
