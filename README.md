@@ -38,7 +38,9 @@ Szczegóły:
   -Integracja z systemem rezerwacji – godziny muszą być powiązane z dostępnymi terminami wizyt, aby uniknąć nakładania się terminów.
 
 1.5. Tworzenie konta pacjenta 
+
 Opis: Proces samodzielnej rejestracji pacjenta w serwisie internetowym. 
+
 Szczegóły:
   -Użytkownik podaje adres e-mail (login) oraz hasło. Konto musi zostać powiązane z danymi pacjenta w bazie ( przez weryfikację numeru PESEL).
 
